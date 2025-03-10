@@ -1,5 +1,5 @@
 # Используем облегченную версию Python
-FROM python:3.12-slim
+FROM python:3.12.7-slim
 
 # Устанавливаем рабочую директорию
 WORKDIR /pricep
@@ -11,8 +11,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libgbm1 libxkbcommon0 libasound2 \
     && rm -rf /var/lib/apt/lists/*  # Удаляем кеш APT
 
+
+RUN pip install --no-cache-dir torch==2.6.0+cpu torchaudio==2.6.0+cpu torchvision==0.21.0+cpu --index-url https://download.pytorch.org/whl/cpu
 # Копируем и устанавливаем Python-зависимости
 COPY requirements.txt /pricep/
+RUN python --version
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Устанавливаем Playwright и его зависимости

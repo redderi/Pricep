@@ -1995,3 +1995,7 @@ playwright._impl._errors.Error: BrowserType.launch:
 ERROR    2025-03-10 19:21:50,031 django.server "POST /search-text/ HTTP/1.1" 500 145
 INFO     2025-03-10 19:27:32,789 pricep Blip model initialized.
 INFO     2025-03-11 00:07:08,916 pricep Blip model initialized.
+INFO     2025-03-11 00:13:46,969 pricep Blip model initialized.
+INFO     2025-03-11 00:13:54,214 pricep Processing uploaded image
+INFO     2025-03-11 00:13:54,215 pricep Processing image: uploads\d3179579-b588-4162-8806-9b1d91ea8108.png
+INFO     2025-03-11 00:14:00,533 pricep Image description: a white plate on a blue table
