@@ -6,4 +6,8 @@ services:
       context: .
     volumes:
       - .:/pricep
-    command: /bin/bash -c "playwright install && python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - "${PORT}:${PORT}"  
+    environment:
+      - PORT=8080 
+    command: /bin/bash -c "playwright install --with-deps && python manage.py runserver 0.0.0.0:${PORT}"

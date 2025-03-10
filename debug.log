@@ -1994,3 +1994,4 @@ playwright._impl._errors.Error: BrowserType.launch:
 ╚══════════════════════════════════════════════════════╝
 ERROR    2025-03-10 19:21:50,031 django.server "POST /search-text/ HTTP/1.1" 500 145
 INFO     2025-03-10 19:27:32,789 pricep Blip model initialized.
+INFO     2025-03-11 00:07:08,916 pricep Blip model initialized.
