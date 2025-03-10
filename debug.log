@@ -1,0 +1,1996 @@
+WARNING  2025-02-03 15:50:31,537 django.request Not Found: /
+WARNING  2025-02-03 15:50:31,539 django.server "GET / HTTP/1.1" 404 2185
+WARNING  2025-02-03 15:50:31,770 django.request Not Found: /favicon.ico
+WARNING  2025-02-03 15:50:31,771 django.server "GET /favicon.ico HTTP/1.1" 404 2236
+ERROR    2025-02-03 15:52:57,127 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\image_search\views.py", line 51, in image_search_view
+    fs = FileSystemStorage()
+         ^^^^^^^^^^^^^^^^^
+NameError: name 'FileSystemStorage' is not defined
+ERROR    2025-02-03 15:52:57,134 django.server "POST /search-image/ HTTP/1.1" 500 72580
+INFO     2025-02-03 16:01:16,058 pricep Blip model setup in 396.70 sec
+INFO     2025-02-03 16:01:16,340 pricep Client uploaded a photo
+INFO     2025-02-03 16:01:16,341 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\���������.png
+INFO     2025-02-03 16:01:19,531 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-03 16:02:06,709 pricep Blip model setup in 1.55 sec
+INFO     2025-02-03 16:02:07,056 pricep Client uploaded a photo
+INFO     2025-02-03 16:02:07,057 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\���������_6vtp5Pu.png
+INFO     2025-02-03 16:02:10,087 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-03 16:04:22,379 pricep Blip model setup in 1.74 sec
+INFO     2025-02-03 16:09:44,158 pricep Client uploaded a photo
+INFO     2025-02-03 16:09:44,159 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\���������_7TezNr5.png
+INFO     2025-02-03 16:09:47,453 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-03 16:10:02,121 pricep Client uploaded a photo
+INFO     2025-02-03 16:10:02,122 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\���������.png
+INFO     2025-02-03 16:10:04,093 pricep Result: monster energy drink can
+INFO     2025-02-03 16:10:29,433 pricep Blip model setup in 1.21 sec
+INFO     2025-02-03 16:10:35,852 pricep Client uploaded a photo
+INFO     2025-02-03 16:10:35,853 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\���������_4KOnVMc.png
+INFO     2025-02-03 16:10:38,343 pricep Result: monster energy drink can
+INFO     2025-02-03 16:12:48,457 pricep Blip model setup in 1.33 sec
+INFO     2025-02-03 16:13:10,638 pricep Client uploaded a photo
+INFO     2025-02-03 16:13:10,639 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\���������.png
+INFO     2025-02-03 16:13:13,423 pricep Result: monster energy drink can
+INFO     2025-02-03 16:15:06,902 pricep Blip model setup in 1.29 sec
+INFO     2025-02-03 16:15:36,372 pricep Blip model setup in 1.27 sec
+INFO     2025-02-03 16:15:45,313 pricep Client uploaded a photo
+INFO     2025-02-03 16:15:45,314 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\94e0d5c4-17d8-42cd-aff1-d92c92d5eb68.png
+INFO     2025-02-03 16:15:47,725 pricep Result: monster energy drink can
+INFO     2025-02-03 16:15:50,400 pricep Client uploaded a photo
+INFO     2025-02-03 16:15:50,401 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\894e6967-87db-4d08-a758-96caf9dcfd89.png
+INFO     2025-02-03 16:15:52,466 pricep Result: monster energy drink can
+INFO     2025-02-03 16:41:46,573 pricep Blip model setup in 1.18 sec
+INFO     2025-02-03 16:41:51,728 pricep Client uploaded a photo
+INFO     2025-02-03 16:41:51,729 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\83185bb0-635c-4c96-a71e-9c1f3c992411.png
+INFO     2025-02-03 16:41:54,411 pricep Result: monster energy drink can
+INFO     2025-02-03 16:42:49,238 pricep Blip model setup in 1.23 sec
+INFO     2025-02-03 16:43:03,480 pricep Blip model setup in 1.10 sec
+INFO     2025-02-03 16:43:06,879 pricep Client uploaded a photo
+INFO     2025-02-03 16:43:06,880 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\a037858f-b4fe-48fe-8afe-8c51d21345dc.png
+INFO     2025-02-03 16:43:09,385 pricep Result: monster energy drink can
+INFO     2025-02-03 16:45:24,825 pricep Blip model setup in 13.50 sec
+INFO     2025-02-03 16:45:33,913 pricep Client uploaded a photo
+INFO     2025-02-03 16:45:33,913 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\2483d5aa-d6c2-43b5-9e65-fb0e2cb07024.png
+INFO     2025-02-03 16:45:36,442 pricep Result: monster energy drink can
+INFO     2025-02-03 16:50:22,805 pricep Blip model setup in 1.51 sec
+INFO     2025-02-03 16:50:31,301 pricep Client uploaded a photo
+INFO     2025-02-03 16:50:31,301 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\d63fbdd3-ba6f-4176-ae5c-e2ee8b982f3a.png
+INFO     2025-02-03 16:50:33,771 pricep Result: monster energy drink can
+INFO     2025-02-03 16:52:38,004 pricep Blip model setup in 1.54 sec
+INFO     2025-02-03 16:52:42,461 pricep Client uploaded a photo
+INFO     2025-02-03 16:52:42,462 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\58688295-54fc-4f92-8fea-9e8b3f9be8ca.png
+INFO     2025-02-03 16:52:44,859 pricep Result: monster energy drink can
+INFO     2025-02-11 15:59:46,803 pricep Blip model setup in 2.00 sec
+WARNING  2025-02-11 16:00:02,233 django.request Not Found: /
+WARNING  2025-02-11 16:00:02,234 django.server "GET / HTTP/1.1" 404 2185
+WARNING  2025-02-11 16:00:02,705 django.request Not Found: /favicon.ico
+WARNING  2025-02-11 16:00:02,707 django.server "GET /favicon.ico HTTP/1.1" 404 2236
+INFO     2025-02-11 16:00:33,901 pricep Client uploaded a photo
+INFO     2025-02-11 16:00:33,902 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\168ea14b-6018-4be8-8054-ff3a4fb274e0.png
+INFO     2025-02-11 16:00:38,197 pricep Result: monster energy drink can
+INFO     2025-02-11 18:33:33,244 pricep Blip model setup in 1.62 sec
+INFO     2025-02-11 18:33:39,083 pricep Client uploaded a photo
+INFO     2025-02-11 18:33:39,083 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\e305eb13-d404-41f9-9289-d80854616a6b.png
+INFO     2025-02-11 18:33:43,174 pricep Result: monster energy drink can
+INFO     2025-02-11 18:43:01,610 pricep Blip model setup in 1.28 sec
+INFO     2025-02-11 18:43:13,082 pricep Client uploaded a photo
+ERROR    2025-02-11 18:43:13,183 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\image_search\views.py", line 120, in image_search_view
+    status, result_text = decode_picture(file_path, blip_model)
+                          ^^^^^^^^^^^^^^
+NameError: name 'decode_picture' is not defined
+ERROR    2025-02-11 18:43:13,191 django.server "POST /search-image/ HTTP/1.1" 500 74067
+INFO     2025-02-11 18:43:38,283 pricep Blip model setup in 1.16 sec
+INFO     2025-02-11 19:09:37,794 pricep Client uploaded a photo
+INFO     2025-02-11 19:09:37,844 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\adbded1b-42d2-418f-85bb-0edfac87be4a.png
+INFO     2025-02-11 19:09:43,701 pricep Result: monster energy drink can
+WARNING  2025-02-11 19:10:30,302 django.request Not Found: /product/energeticheskiy-napitok-monster-energy-ultra-white-zh-b-6-sht-h-330-ml-kitay-1725085832/
+WARNING  2025-02-11 19:10:30,303 django.server "GET /product/energeticheskiy-napitok-monster-energy-ultra-white-zh-b-6-sht-h-330-ml-kitay-1725085832/?at=RltyXrvBnhp0g2Y1tAgkQ5hN76vG1SE21xDDf3oJ3Op&avtc=1&avte=4&avts=1739290224&keywords=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA+%D0%B1%D0%B0%D0%BD%D0%BA%D0%B8 HTTP/1.1" 404 2826
+WARNING  2025-02-11 19:10:34,941 django.request Not Found: /product/energeticheskiy-napitok-monster-energy-ultra-white-zh-b-6-sht-h-330-ml-kitay-1725085832/
+WARNING  2025-02-11 19:10:34,942 django.server "GET /product/energeticheskiy-napitok-monster-energy-ultra-white-zh-b-6-sht-h-330-ml-kitay-1725085832/?at=RltyXrvBnhp0g2Y1tAgkQ5hN76vG1SE21xDDf3oJ3Op&avtc=1&avte=4&avts=1739290224&keywords=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80+%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA+%D0%B1%D0%B0%D0%BD%D0%BA%D0%B8 HTTP/1.1" 404 2826
+INFO     2025-02-11 19:11:14,402 pricep Client uploaded a photo
+INFO     2025-02-11 19:11:14,403 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\67dc817d-2cd3-4cea-a29f-38beebd81626.png
+INFO     2025-02-11 19:11:17,479 pricep Result: monster energy drink can
+INFO     2025-02-11 19:14:15,958 pricep Client uploaded a photo
+INFO     2025-02-11 19:14:15,959 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Scripts\pricep\media\uploads\019c5958-f05e-4448-a131-a0cf273a9e3e.png
+INFO     2025-02-11 19:14:18,147 pricep Result: monster energy drink can
+INFO     2025-02-17 01:41:20,590 pricep Blip model setup in 1.34 sec
+WARNING  2025-02-17 01:41:27,213 django.request Not Found: /
+WARNING  2025-02-17 01:41:27,213 django.server "GET / HTTP/1.1" 404 2185
+WARNING  2025-02-17 01:41:27,595 django.request Not Found: /favicon.ico
+WARNING  2025-02-17 01:41:27,596 django.server "GET /favicon.ico HTTP/1.1" 404 2236
+INFO     2025-02-17 01:42:05,951 pricep Blip model setup in 1.11 sec
+INFO     2025-02-17 01:42:16,712 pricep Blip model setup in 1.25 sec
+INFO     2025-02-17 01:42:35,005 pricep Blip model setup in 1.11 sec
+INFO     2025-02-17 01:42:55,670 pricep Blip model setup in 1.11 sec
+INFO     2025-02-17 01:44:47,811 pricep Blip model setup in 1.26 sec
+INFO     2025-02-17 01:46:39,566 pricep Blip model setup in 1.31 sec
+WARNING  2025-02-17 01:47:01,591 django.request Bad Request: /search-image/
+WARNING  2025-02-17 01:47:01,593 django.server "POST /search-image/ HTTP/1.1" 400 28
+WARNING  2025-02-17 01:47:07,836 django.request Bad Request: /search-image/
+WARNING  2025-02-17 01:47:07,837 django.server "POST /search-image/ HTTP/1.1" 400 28
+WARNING  2025-02-17 01:47:14,280 django.security.csrf Forbidden (CSRF cookie not set.): /search-text/
+WARNING  2025-02-17 01:47:14,281 django.server "POST /search-text/ HTTP/1.1" 403 2855
+INFO     2025-02-17 01:47:33,031 pricep Blip model setup in 1.35 sec
+INFO     2025-02-17 01:49:10,220 pricep Blip model setup in 1.17 sec
+WARNING  2025-02-17 01:49:17,542 django.security.csrf Forbidden (CSRF cookie not set.): /search-text/
+WARNING  2025-02-17 01:49:17,543 django.server "POST /search-text/ HTTP/1.1" 403 2855
+INFO     2025-02-17 01:49:32,878 pricep Blip model setup in 1.02 sec
+WARNING  2025-02-17 01:49:37,642 django.security.csrf Forbidden (CSRF cookie not set.): /search-text/
+WARNING  2025-02-17 01:49:37,643 django.server "POST /search-text/ HTTP/1.1" 403 2855
+INFO     2025-02-17 01:50:38,192 pricep Blip model setup in 1.16 sec
+INFO     2025-02-17 01:50:43,315 pricep Client submitted text
+INFO     2025-02-17 01:51:18,545 pricep Client submitted text
+INFO     2025-02-17 01:51:38,933 pricep Client submitted text
+INFO     2025-02-17 01:52:34,218 pricep Blip model setup in 1.07 sec
+INFO     2025-02-17 01:52:37,741 pricep Client submitted text
+INFO     2025-02-17 01:55:04,228 pricep Blip model setup in 1.08 sec
+INFO     2025-02-17 01:55:05,255 pricep Blip model setup in 1.02 sec
+INFO     2025-02-17 01:55:06,096 pricep Blip model setup in 0.84 sec
+INFO     2025-02-17 01:55:46,465 pricep Blip model setup in 1.00 sec
+ERROR    2025-02-17 01:56:02,175 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\image_search\views.py", line 158, in text_search_view
+    input_text = translator.translate(prepared_text, src="ru", dest="en")
+                 ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'translator' where it is not associated with a value
+ERROR    2025-02-17 01:56:02,179 django.server "POST /search-text/ HTTP/1.1" 500 73474
+INFO     2025-02-17 01:57:03,383 pricep Blip model setup in 1.86 sec
+ERROR    2025-02-17 01:57:07,659 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\image_search\views.py", line 158, in text_search_view
+    input_text = translator.translate(prepared_text, src="ru", dest="en")
+                                      ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'prepared_text' where it is not associated with a value
+ERROR    2025-02-17 01:57:07,663 django.server "POST /search-text/ HTTP/1.1" 500 73855
+INFO     2025-02-17 01:57:34,805 pricep Blip model setup in 1.10 sec
+ERROR    2025-02-17 01:57:38,912 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\image_search\views.py", line 168, in text_search_view
+    url = f"https://www.ozon.ru/search/?from_global=true&sorting=score&text={result_text}&__rr=1"
+                                                                             ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'result_text' where it is not associated with a value
+ERROR    2025-02-17 01:57:38,917 django.server "POST /search-text/ HTTP/1.1" 500 73910
+INFO     2025-02-17 01:58:34,478 pricep Blip model setup in 1.09 sec
+INFO     2025-02-17 01:59:44,564 pricep Blip model setup in 1.34 sec
+INFO     2025-02-17 02:00:06,351 pricep Client uploaded a photo
+INFO     2025-02-17 02:00:06,351 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\59c88f2c-7c49-4fe5-b0a1-1cad7c9e63c3.png
+INFO     2025-02-17 02:00:10,532 pricep Result: monster energy drink can
+INFO     2025-02-17 02:01:16,069 pricep Blip model setup in 1.06 sec
+INFO     2025-02-17 02:01:17,788 pricep Client uploaded a photo
+INFO     2025-02-17 02:01:17,789 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\626b8367-0814-4e3f-84c5-1a15d8961f97.png
+INFO     2025-02-17 02:01:19,824 pricep Result: monster energy drink can
+INFO     2025-02-17 02:01:36,797 pricep Client uploaded a photo
+INFO     2025-02-17 02:01:36,797 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\5ca2c225-2d33-48a9-8bae-6c3639d5aab6.png
+INFO     2025-02-17 02:01:38,439 pricep Result: monster energy drink can
+INFO     2025-02-17 02:02:23,122 pricep Blip model setup in 1.13 sec
+INFO     2025-02-17 02:02:24,893 pricep Client uploaded a photo
+INFO     2025-02-17 02:02:24,894 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\c51d2f22-f07b-4a60-8bd9-7ce2d55200b3.png
+INFO     2025-02-17 02:02:26,849 pricep Result: monster energy drink can
+INFO     2025-02-17 02:03:06,422 pricep Blip model setup in 1.08 sec
+INFO     2025-02-17 02:03:08,622 pricep Client uploaded a photo
+INFO     2025-02-17 02:03:08,622 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\6762c4b1-5bf6-4a20-aedc-a53c0a58d500.png
+INFO     2025-02-17 02:03:10,514 pricep Result: monster energy drink can
+INFO     2025-02-17 02:05:18,448 pricep Blip model setup in 1.11 sec
+INFO     2025-02-17 02:05:20,792 pricep Client uploaded a photo
+INFO     2025-02-17 02:05:20,793 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\b2ec450b-0601-4d95-a031-283f3ecd573b.png
+INFO     2025-02-17 02:05:22,900 pricep Result: monster energy drink can
+INFO     2025-02-17 02:05:55,781 pricep Client uploaded a photo
+INFO     2025-02-17 02:05:55,782 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\b6e606ed-d396-4e68-81ae-786c358833f8.png
+INFO     2025-02-17 02:05:57,962 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-17 02:06:24,750 pricep Client uploaded a photo
+INFO     2025-02-17 02:06:24,751 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\7bbfe8f1-b324-4716-b496-4bce38fa48d6.png
+INFO     2025-02-17 02:06:27,172 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-17 02:08:35,624 pricep Blip model setup in 1.41 sec
+INFO     2025-02-17 02:08:38,479 pricep Client uploaded a photo
+INFO     2025-02-17 02:08:38,480 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\media\uploads\a2c18c47-c861-4abd-8d55-155c99749a5a.png
+INFO     2025-02-17 02:08:41,015 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 02:09:02,492 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\image_search\views.py", line 128, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\pricep\image_search\views.py", line 94, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 02:09:02,495 django.server "POST /search-image/ HTTP/1.1" 500 104059
+INFO     2025-02-17 02:18:50,650 pricep Blip model setup in 1.24 sec
+INFO     2025-02-17 15:46:16,216 pricep Blip model setup in 1.87 sec
+WARNING  2025-02-17 15:46:18,974 django.request Not Found: /
+WARNING  2025-02-17 15:46:18,975 django.server "GET / HTTP/1.1" 404 2360
+WARNING  2025-02-17 15:46:19,154 django.request Not Found: /favicon.ico
+WARNING  2025-02-17 15:46:19,155 django.server "GET /favicon.ico HTTP/1.1" 404 2411
+INFO     2025-02-17 15:57:35,512 pricep Blip model setup in 1.82 sec
+INFO     2025-02-17 16:08:46,489 pricep Blip model setup in 4.72 sec
+WARNING  2025-02-17 16:09:04,014 django.security.csrf Forbidden (CSRF cookie not set.): /search-image/
+WARNING  2025-02-17 16:09:04,016 django.server "POST /search-image/ HTTP/1.1" 403 2855
+WARNING  2025-02-17 16:09:47,631 django.security.csrf Forbidden (CSRF cookie not set.): /search-image/
+WARNING  2025-02-17 16:09:47,632 django.server "POST /search-image/ HTTP/1.1" 403 2855
+INFO     2025-02-17 16:12:32,755 pricep Blip model setup in 24.04 sec
+WARNING  2025-02-17 16:12:40,100 django.request Forbidden: /search-image/
+WARNING  2025-02-17 16:12:40,101 django.server "POST /search-image/ HTTP/1.1" 403 28
+WARNING  2025-02-17 16:12:44,329 django.request Forbidden: /search-image/
+WARNING  2025-02-17 16:12:44,330 django.server "POST /search-image/ HTTP/1.1" 403 28
+WARNING  2025-02-17 16:12:58,277 django.request Forbidden: /search-image/
+WARNING  2025-02-17 16:12:58,278 django.server "POST /search-image/ HTTP/1.1" 403 28
+WARNING  2025-02-17 16:13:13,290 django.request Forbidden: /search-image/
+WARNING  2025-02-17 16:13:13,291 django.server "POST /search-image/ HTTP/1.1" 403 28
+INFO     2025-02-17 16:14:19,053 pricep Blip model setup in 2.85 sec
+WARNING  2025-02-17 16:14:22,454 django.request Forbidden: /search-image/
+WARNING  2025-02-17 16:14:22,455 django.server "POST /search-image/ HTTP/1.1" 403 28
+INFO     2025-02-17 16:15:24,425 pricep Client uploaded a photo
+INFO     2025-02-17 16:15:24,425 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\8df19275-c94a-4fdc-b5ec-3302e6fb15ba.png
+INFO     2025-02-17 16:15:29,449 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:16:37,411 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 95, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:16:37,415 django.server "POST /search-image/ HTTP/1.1" 500 104435
+INFO     2025-02-17 16:17:11,295 pricep Blip model setup in 1.39 sec
+INFO     2025-02-17 16:18:23,071 pricep Blip model setup in 1.48 sec
+INFO     2025-02-17 16:18:54,982 pricep Blip model setup in 1.22 sec
+INFO     2025-02-17 16:21:17,943 pricep Blip model setup in 1.59 sec
+INFO     2025-02-17 16:22:44,800 pricep Blip model setup in 1.49 sec
+INFO     2025-02-17 16:24:12,639 pricep Client uploaded a photo
+INFO     2025-02-17 16:24:12,640 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\e149fc0e-9b16-4b6f-82b2-258a2078cd96.png
+ERROR    2025-02-17 16:24:12,651 pricep Error opening file: 'NoneType' object is not callable
+WARNING  2025-02-17 16:24:12,653 django.request Bad Request: /search-image/
+WARNING  2025-02-17 16:24:12,654 django.server "POST /search-image/ HTTP/1.1" 400 35
+INFO     2025-02-17 16:24:21,164 pricep Client uploaded a photo
+INFO     2025-02-17 16:24:21,164 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\f321350e-efc6-4bc6-9253-c1cf808caa30.png
+ERROR    2025-02-17 16:24:21,165 pricep Error opening file: 'NoneType' object is not callable
+WARNING  2025-02-17 16:24:21,168 django.request Bad Request: /search-image/
+WARNING  2025-02-17 16:24:21,169 django.server "POST /search-image/ HTTP/1.1" 400 35
+INFO     2025-02-17 16:27:06,139 pricep Client uploaded a photo
+ERROR    2025-02-17 16:27:06,139 pricep Blip model is not initialized.
+WARNING  2025-02-17 16:27:06,141 django.request Bad Request: /search-image/
+WARNING  2025-02-17 16:27:06,143 django.server "POST /search-image/ HTTP/1.1" 400 38
+INFO     2025-02-17 16:27:43,473 pricep Blip model setup in 1.37 sec
+INFO     2025-02-17 16:29:15,685 pricep Blip model setup in 1.38 sec
+INFO     2025-02-17 16:31:22,457 pricep WebDriver initialized successfully in 126.77 sec
+INFO     2025-02-17 16:31:34,023 pricep Client uploaded a photo
+INFO     2025-02-17 16:31:34,024 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\831e9d48-bf09-4370-9c47-322bcebfbfc3.png
+INFO     2025-02-17 16:31:37,201 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:32:04,911 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 187, in image_search_view
+    'product_info': products
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 146, in parse_ozon_page
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:32:04,916 django.server "POST /search-image/ HTTP/1.1" 500 100461
+INFO     2025-02-17 16:37:10,603 pricep Blip model setup in 4.63 sec
+INFO     2025-02-17 16:38:21,200 pricep WebDriver initialized successfully in 70.60 sec
+INFO     2025-02-17 16:38:21,648 pricep Client uploaded a photo
+INFO     2025-02-17 16:38:21,649 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\2a2f9e18-ef5d-4a20-9c8c-7ee3956c2686.png
+INFO     2025-02-17 16:38:25,602 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-17 16:40:22,080 pricep Blip model setup in 39.08 sec
+INFO     2025-02-17 16:45:36,879 pricep Blip model setup in 1.89 sec
+INFO     2025-02-17 16:47:44,918 pricep WebDriver initialized successfully in 128.04 sec
+INFO     2025-02-17 16:47:56,239 pricep Client uploaded a photo
+INFO     2025-02-17 16:47:56,240 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\4f452c7a-eb99-42e8-8549-247f7b2169a5.png
+INFO     2025-02-17 16:47:59,421 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:48:11,438 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:48:11,443 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:48:30,091 pricep Client uploaded a photo
+INFO     2025-02-17 16:48:30,093 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\da6b4839-ba8d-445f-ad82-3b7be0f43e04.png
+INFO     2025-02-17 16:48:32,692 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:48:44,241 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:48:44,245 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:48:48,567 pricep Client uploaded a photo
+INFO     2025-02-17 16:48:48,568 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\ce6415b3-2b7e-4282-b313-8c9eec9610d1.png
+INFO     2025-02-17 16:48:51,228 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:49:03,757 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:49:03,761 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:50:18,450 pricep Blip model setup in 2.17 sec
+INFO     2025-02-17 16:50:36,823 pricep WebDriver initialized successfully in 18.37 sec
+INFO     2025-02-17 16:50:42,727 pricep Client uploaded a photo
+INFO     2025-02-17 16:50:42,727 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\66e70e13-dbc3-4896-a26e-bc5a6b65dac3.png
+INFO     2025-02-17 16:50:46,016 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:50:59,260 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:50:59,264 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:51:09,725 pricep Client uploaded a photo
+INFO     2025-02-17 16:51:09,726 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\50872854-e708-458c-a404-9ef1201c1b83.png
+INFO     2025-02-17 16:51:12,364 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:51:18,806 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:51:18,810 django.server "POST /search-image/ HTTP/1.1" 500 103729
+ERROR    2025-02-17 16:52:00,251 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 211, in text_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:52:00,255 django.server "POST /search-text/ HTTP/1.1" 500 102215
+INFO     2025-02-17 16:52:17,989 pricep Client uploaded a photo
+INFO     2025-02-17 16:52:17,990 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\60cfa6b6-1fd0-4245-954d-f415e2d449c8.png
+INFO     2025-02-17 16:52:20,428 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:52:28,061 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:52:28,065 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:52:32,536 pricep Client uploaded a photo
+INFO     2025-02-17 16:52:32,537 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\5a836a89-7e3e-4fe3-ade1-ca09f5d7278e.png
+INFO     2025-02-17 16:52:35,239 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:52:42,886 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:52:42,891 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:53:10,106 pricep Blip model setup in 1.26 sec
+INFO     2025-02-17 16:53:35,878 pricep WebDriver initialized successfully in 25.77 sec
+INFO     2025-02-17 16:53:42,964 pricep Client uploaded a photo
+INFO     2025-02-17 16:53:42,965 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\53947f26-2ea8-4b76-af08-e75c261e409b.png
+INFO     2025-02-17 16:53:46,035 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-17 16:54:13,728 pricep Client uploaded a photo
+INFO     2025-02-17 16:54:13,729 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\97668844-c03b-45b7-8ea8-fb54cb35caff.png
+INFO     2025-02-17 16:54:16,390 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:54:25,211 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:54:25,216 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:55:27,618 pricep Client uploaded a photo
+INFO     2025-02-17 16:55:27,619 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\5e2969d5-803e-4a4c-95cb-9102dc4ee12a.png
+INFO     2025-02-17 16:55:30,453 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:55:40,479 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("a.tile-clickable-element.xi9_23")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:55:40,481 django.server "POST /search-image/ HTTP/1.1" 500 103729
+INFO     2025-02-17 16:57:45,666 pricep Blip model setup in 1.66 sec
+INFO     2025-02-17 16:58:03,607 pricep WebDriver initialized successfully in 17.94 sec
+INFO     2025-02-17 16:58:10,127 pricep Client uploaded a photo
+INFO     2025-02-17 16:58:10,127 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\6d06e771-89ad-4cfe-8897-beb4d4785547.png
+INFO     2025-02-17 16:58:13,208 pricep Result: a white wooden chair with a white seat
+ERROR    2025-02-17 16:58:25,221 django.request Internal Server Error: /search-image/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 177, in image_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 137, in parse_ozon_page
+    link = element.select_one("i4x_23.ix5_23.title-root")["href"]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+ERROR    2025-02-17 16:58:25,225 django.server "POST /search-image/ HTTP/1.1" 500 103701
+INFO     2025-02-17 17:00:10,989 pricep Blip model setup in 2.54 sec
+INFO     2025-02-17 17:00:32,749 pricep WebDriver initialized successfully in 21.76 sec
+INFO     2025-02-17 17:01:03,096 pricep Blip model setup in 1.86 sec
+INFO     2025-02-17 17:01:22,556 pricep WebDriver initialized successfully in 19.46 sec
+INFO     2025-02-17 17:01:27,668 pricep Client uploaded a photo
+INFO     2025-02-17 17:01:27,670 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\261e3a2b-7c01-4c36-8367-d350a33974b8.png
+INFO     2025-02-17 17:01:30,780 pricep Result: a white wooden chair with a white seat
+WARNING  2025-02-17 17:02:37,182 django.request Not Found: /product/stul-ingolf-iz-massiva-berezy-holodnyy-belyy-ton-7-sidene-mdf-832772220/
+WARNING  2025-02-17 17:02:37,184 django.server "GET /product/stul-ingolf-iz-massiva-berezy-holodnyy-belyy-ton-7-sidene-mdf-832772220/?at=gpt4JmAk8IVDAP36IDp39BZt85q54ghqxYw1fznBMnn&avtc=1&avte=4&avts=1739800896&keywords=%D0%91%D0%B5%D0%BB%D1%8B%D0%B9+%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9+%D1%81%D1%82%D1%83%D0%BB+%D1%81+%D0%B1%D0%B5%D0%BB%D1%8B%D0%BC+%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5%D0%BC HTTP/1.1" 404 2924
+INFO     2025-02-17 17:04:38,140 pricep Blip model setup in 1.70 sec
+INFO     2025-02-17 17:04:59,425 pricep WebDriver initialized successfully in 21.28 sec
+INFO     2025-02-17 17:05:05,161 pricep Client uploaded a photo
+INFO     2025-02-17 17:05:05,162 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\bf56e6c2-f28d-4ede-93bb-80713e0c3204.png
+INFO     2025-02-17 17:05:08,229 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-17 17:06:26,364 pricep Blip model setup in 1.62 sec
+INFO     2025-02-17 17:06:46,553 pricep WebDriver initialized successfully in 20.19 sec
+INFO     2025-02-17 17:06:50,993 pricep Client uploaded a photo
+INFO     2025-02-17 17:06:50,994 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\36cfc658-1d14-476b-91d7-4fdb114180bc.png
+INFO     2025-02-17 17:06:54,075 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-17 17:10:49,867 pricep Blip model setup in 1.53 sec
+INFO     2025-02-17 17:11:01,113 pricep WebDriver initialized successfully in 11.24 sec
+INFO     2025-02-17 17:11:07,896 pricep Client uploaded a photo
+INFO     2025-02-17 17:11:07,897 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\3af785fc-a958-41ea-9d38-b296b964c341.png
+INFO     2025-02-17 17:11:11,017 pricep Result: a white wooden chair with a white seat
+INFO     2025-02-17 17:11:43,452 pricep Client uploaded a photo
+INFO     2025-02-17 17:11:43,453 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\f67bdb6c-6ca3-4138-9a61-cdda88e52698.png
+INFO     2025-02-17 17:11:45,964 pricep Result: a white plate on a blue table
+INFO     2025-02-17 17:13:55,215 pricep Blip model setup in 1.46 sec
+INFO     2025-02-17 17:14:07,403 pricep WebDriver initialized successfully in 12.19 sec
+INFO     2025-02-17 17:14:21,034 pricep Client uploaded a photo
+INFO     2025-02-17 17:14:21,034 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\883a9434-2915-414e-8d84-9bb250bca7c7.png
+INFO     2025-02-17 17:14:24,292 pricep Result: a white plate on a blue table
+INFO     2025-02-17 17:18:50,384 pricep Blip model setup in 1.61 sec
+INFO     2025-02-17 17:19:15,628 pricep WebDriver initialized successfully in 25.24 sec
+INFO     2025-02-17 17:19:28,854 pricep Client uploaded a photo
+INFO     2025-02-17 17:19:28,854 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\f90ec3eb-27be-4833-8780-b9124179260a.png
+INFO     2025-02-17 17:19:31,958 pricep Result: a white plate on a blue table
+INFO     2025-02-17 17:21:29,033 pricep Blip model setup in 1.68 sec
+INFO     2025-02-17 17:21:54,053 pricep WebDriver initialized successfully in 25.02 sec
+INFO     2025-02-17 17:21:58,321 pricep Client uploaded a photo
+INFO     2025-02-17 17:21:58,322 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\edad8368-e50d-4b95-a1b1-8c47cc0fd87e.png
+INFO     2025-02-17 17:22:01,321 pricep Result: a white plate on a blue table
+INFO     2025-02-17 17:22:49,492 pricep Client uploaded a photo
+INFO     2025-02-17 17:22:49,492 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\4c0b7fd1-9982-439c-9b7d-a24feab396b8.png
+INFO     2025-02-17 17:22:52,119 pricep Result: a bedroom with a bed and a window
+INFO     2025-02-17 17:25:11,264 pricep Blip model setup in 2.51 sec
+INFO     2025-02-17 17:25:26,870 pricep WebDriver initialized successfully in 15.60 sec
+INFO     2025-02-17 17:25:31,145 pricep Client uploaded a photo
+INFO     2025-02-17 17:25:31,146 pricep Image uploaded: C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\media\uploads\9eb4b704-b63d-41a1-a5f7-2f877fc395fa.png
+INFO     2025-02-17 17:25:34,215 pricep Result: a bedroom with a bed and a window
+ERROR    2025-02-17 17:29:00,987 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 266, in text_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 126, in parse_ozon_page
+    web_driver.get(url)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 665, in get
+    return super().get(url)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x007F02D3+25139]
+	(No symbol) [0x0077B284]
+	(No symbol) [0x006504A3]
+	(No symbol) [0x0063FDE0]
+	(No symbol) [0x0065D8B2]
+	(No symbol) [0x006C3D3F]
+	(No symbol) [0x006DDFC9]
+	(No symbol) [0x006BCD36]
+	(No symbol) [0x0068BD29]
+	(No symbol) [0x0068D064]
+	GetHandleVerifier [0x00AFB193+3215603]
+	GetHandleVerifier [0x00B1230A+3310186]
+	GetHandleVerifier [0x00B0C522+3286146]
+	GetHandleVerifier [0x00889CD0+654384]
+	(No symbol) [0x0078460D]
+	(No symbol) [0x007814F8]
+	(No symbol) [0x00781697]
+	(No symbol) [0x00773D70]
+	BaseThreadInitThunk [0x76B4FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7756809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7756806E+238]
+
+ERROR    2025-02-17 17:29:01,001 django.server "POST /search-text/ HTTP/1.1" 500 108484
+INFO     2025-02-17 17:30:10,246 pricep Blip model setup in 1.67 sec
+INFO     2025-02-17 17:30:27,005 pricep WebDriver initialized successfully in 16.76 sec
+INFO     2025-02-17 17:32:26,159 pricep Blip model setup in 1.94 sec
+INFO     2025-02-17 17:32:38,747 pricep WebDriver initialized successfully in 12.59 sec
+INFO     2025-02-17 18:14:20,971 pricep Blip model setup in 2.24 sec
+INFO     2025-02-17 18:14:34,150 pricep WebDriver initialized successfully in 13.18 sec
+INFO     2025-02-17 18:28:00,972 pricep Blip model setup in 1.98 sec
+INFO     2025-02-17 18:28:22,071 pricep WebDriver initialized successfully in 21.10 sec
+INFO     2025-02-17 18:30:31,594 pricep Blip model setup in 2.70 sec
+INFO     2025-02-17 18:30:48,343 pricep WebDriver initialized successfully in 16.75 sec
+INFO     2025-02-18 15:46:59,399 pricep Blip model setup in 1.70 sec
+INFO     2025-02-18 15:47:54,333 pricep WebDriver initialized successfully in 54.93 sec
+INFO     2025-02-18 16:11:37,610 pricep Blip model setup in 1.99 sec
+INFO     2025-02-18 16:11:58,983 pricep WebDriver initialized successfully in 21.37 sec
+INFO     2025-02-18 16:13:25,496 pricep Blip model setup in 2.36 sec
+INFO     2025-02-18 16:13:54,378 pricep WebDriver initialized successfully in 28.88 sec
+WARNING  2025-02-18 16:16:25,884 django.request Not Found: /
+WARNING  2025-02-18 16:16:25,886 django.server "GET / HTTP/1.0" 404 179
+WARNING  2025-02-18 16:16:26,112 django.request Not Found: /favicon.ico
+WARNING  2025-02-18 16:16:26,113 django.server "GET /favicon.ico HTTP/1.0" 404 179
+INFO     2025-02-18 16:22:36,192 pricep Blip model setup in 2.18 sec
+INFO     2025-02-18 16:23:07,368 pricep WebDriver initialized successfully in 31.18 sec
+INFO     2025-02-18 16:28:38,990 pricep Blip model setup in 1.80 sec
+INFO     2025-02-18 16:28:59,004 pricep WebDriver initialized successfully in 20.01 sec
+INFO     2025-02-18 16:31:36,735 pricep Blip model setup in 1.85 sec
+INFO     2025-02-18 16:32:00,456 pricep WebDriver initialized successfully in 23.72 sec
+WARNING  2025-02-18 16:32:37,531 django.request Not Found: /
+WARNING  2025-02-18 16:32:37,533 django.server "GET / HTTP/1.1" 404 179
+WARNING  2025-02-18 16:32:37,705 django.request Not Found: /favicon.ico
+WARNING  2025-02-18 16:32:37,707 django.server "GET /favicon.ico HTTP/1.1" 404 179
+INFO     2025-02-18 16:38:34,849 pricep Blip model setup in 2.04 sec
+INFO     2025-02-18 16:38:58,429 pricep WebDriver initialized successfully in 23.58 sec
+INFO     2025-02-18 16:40:03,525 pricep Blip model setup in 2.01 sec
+INFO     2025-02-18 16:40:30,874 pricep WebDriver initialized successfully in 27.35 sec
+WARNING  2025-02-18 16:40:37,921 django.request Not Found: /
+WARNING  2025-02-18 16:40:37,922 django.server "GET / HTTP/1.1" 404 179
+WARNING  2025-02-18 16:40:38,173 django.request Not Found: /favicon.ico
+WARNING  2025-02-18 16:40:38,174 django.server "GET /favicon.ico HTTP/1.1" 404 179
+WARNING  2025-02-18 16:52:17,766 django.request Not Found: /
+WARNING  2025-02-18 16:52:17,767 django.server "GET / HTTP/1.1" 404 179
+INFO     2025-02-18 16:53:29,352 pricep Blip model setup in 2.59 sec
+INFO     2025-02-18 16:54:15,801 pricep WebDriver initialized successfully in 46.45 sec
+INFO     2025-02-18 16:58:49,317 pricep Blip model setup in 3.93 sec
+INFO     2025-02-18 16:59:22,259 pricep WebDriver initialized successfully in 32.94 sec
+WARNING  2025-02-18 16:59:38,519 django.request Forbidden: /search-text/
+WARNING  2025-02-18 16:59:38,520 django.server "POST /search-text/ HTTP/1.1" 403 28
+ERROR    2025-02-18 18:34:53,758 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 266, in text_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 126, in parse_ozon_page
+    web_driver.get(url)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 665, in get
+    return super().get(url)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x007A02D3+25139]
+	(No symbol) [0x0072B284]
+	(No symbol) [0x006004A3]
+	(No symbol) [0x005EFDE0]
+	(No symbol) [0x0060D8B2]
+	(No symbol) [0x00673D3F]
+	(No symbol) [0x0068DFC9]
+	(No symbol) [0x0066CD36]
+	(No symbol) [0x0063BD29]
+	(No symbol) [0x0063D064]
+	GetHandleVerifier [0x00AAB193+3215603]
+	GetHandleVerifier [0x00AC230A+3310186]
+	GetHandleVerifier [0x00ABC522+3286146]
+	GetHandleVerifier [0x00839CD0+654384]
+	(No symbol) [0x0073460D]
+	(No symbol) [0x007314F8]
+	(No symbol) [0x00731697]
+	(No symbol) [0x00723D70]
+	BaseThreadInitThunk [0x7561FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7766809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7766806E+238]
+
+ERROR    2025-02-18 18:34:53,884 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-02-18 18:35:30,469 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 266, in text_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 126, in parse_ozon_page
+    web_driver.get(url)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 665, in get
+    return super().get(url)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x007A02D3+25139]
+	(No symbol) [0x0072B284]
+	(No symbol) [0x00600300]
+	(No symbol) [0x0063B1B8]
+	(No symbol) [0x0066CDF6]
+	(No symbol) [0x006687E5]
+	(No symbol) [0x00667D66]
+	(No symbol) [0x005D3245]
+	(No symbol) [0x005D379E]
+	(No symbol) [0x005D3C1D]
+	GetHandleVerifier [0x00AAB193+3215603]
+	GetHandleVerifier [0x00AC230A+3310186]
+	GetHandleVerifier [0x00ABC522+3286146]
+	GetHandleVerifier [0x00839CD0+654384]
+	(No symbol) [0x0073460D]
+	(No symbol) [0x005D2F10]
+	(No symbol) [0x005D2AD6]
+	GetHandleVerifier [0x00B36EAC+3788300]
+	BaseThreadInitThunk [0x7561FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7766809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7766806E+238]
+
+ERROR    2025-02-18 18:35:30,485 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-02-18 18:36:29,702 pricep Blip model setup in 3.09 sec
+INFO     2025-02-18 18:37:01,843 pricep WebDriver initialized successfully in 32.14 sec
+ERROR    2025-02-18 18:52:35,857 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 266, in text_search_view
+    products = parse_ozon_page(url, 3)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 126, in parse_ozon_page
+    web_driver.get(url)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\undetected_chromedriver\__init__.py", line 665, in get
+    return super().get(url)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+	GetHandleVerifier [0x003702D3+25139]
+	(No symbol) [0x002FB284]
+	(No symbol) [0x001D04A3]
+	(No symbol) [0x001BFDE0]
+	(No symbol) [0x001DD8B2]
+	(No symbol) [0x00243D3F]
+	(No symbol) [0x0025DFC9]
+	(No symbol) [0x0023CD36]
+	(No symbol) [0x0020BD29]
+	(No symbol) [0x0020D064]
+	GetHandleVerifier [0x0067B193+3215603]
+	GetHandleVerifier [0x0069230A+3310186]
+	GetHandleVerifier [0x0068C522+3286146]
+	GetHandleVerifier [0x00409CD0+654384]
+	(No symbol) [0x0030460D]
+	(No symbol) [0x003014F8]
+	(No symbol) [0x00301697]
+	(No symbol) [0x002F3D70]
+	BaseThreadInitThunk [0x7561FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7766809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7766806E+238]
+
+ERROR    2025-02-18 18:52:35,868 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-02-18 18:52:55,741 pricep Blip model setup in 4.51 sec
+INFO     2025-02-18 18:53:38,943 pricep WebDriver initialized successfully in 43.20 sec
+INFO     2025-02-25 16:27:07,908 pricep Blip model setup in 1.90 sec
+INFO     2025-02-25 16:27:58,657 pricep WebDriver initialized successfully in 50.75 sec
+INFO     2025-02-25 16:32:22,019 pricep Blip model setup in 3.54 sec
+INFO     2025-02-25 16:33:19,769 pricep WebDriver initialized successfully in 57.75 sec
+INFO     2025-02-25 16:50:58,572 pricep Blip model setup in 1.39 sec
+INFO     2025-02-25 16:51:09,793 pricep WebDriver initialized successfully in 11.22 sec
+INFO     2025-02-25 17:00:22,253 pricep Blip model setup in 1.46 sec
+INFO     2025-02-25 17:00:50,210 pricep WebDriver initialized successfully in 27.96 sec
+INFO     2025-03-01 14:01:18,283 pricep Blip model setup in 2.19 sec
+INFO     2025-03-01 14:01:34,473 pricep WebDriver initialized successfully in 16.19 sec
+INFO     2025-03-01 14:15:17,428 pricep Blip model setup in 1.40 sec
+INFO     2025-03-01 14:17:43,912 pricep Blip model initialized in 1.53 sec
+INFO     2025-03-01 14:18:28,130 pricep Blip model initialized in 1.10 sec
+INFO     2025-03-01 14:22:54,239 pricep Blip model initialized in 1.81 sec
+INFO     2025-03-01 14:36:44,819 pricep Blip model initialized in 1.57 sec
+ERROR    2025-03-01 14:37:04,307 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 133, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 74, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=8000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 8000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:37:04,349 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-01 14:37:20,718 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 133, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 74, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=8000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 8000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:37:20,726 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:38:17,480 pricep Blip model initialized in 1.16 sec
+ERROR    2025-03-01 14:38:39,334 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 133, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 74, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=15000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:38:39,344 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:39:17,390 pricep Blip model initialized in 1.16 sec
+ERROR    2025-03-01 14:39:39,541 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 134, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 75, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=15000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:39:39,550 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:40:35,991 pricep Blip model initialized in 1.29 sec
+ERROR    2025-03-01 14:40:56,781 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 134, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 75, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=15000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:40:56,792 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:42:55,159 pricep Blip model initialized in 1.21 sec
+ERROR    2025-03-01 14:43:21,788 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 135, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 75, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=20000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:43:21,798 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:44:01,757 pricep Blip model initialized in 1.24 sec
+ERROR    2025-03-01 14:44:30,585 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 135, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 75, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=20000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:44:30,595 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:45:59,355 pricep Blip model initialized in 1.25 sec
+ERROR    2025-03-01 14:46:26,473 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 135, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 75, in fetch_ozon_page
+    await page.wait_for_selector("div[class*=tile-root]", timeout=20000)
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8174, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("div[class*=tile-root]") to be visible
+
+ERROR    2025-03-01 14:46:26,485 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:50:15,159 pricep Blip model initialized in 1.21 sec
+ERROR    2025-03-01 14:50:20,800 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 145, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 81, in fetch_ozon_page
+    await stealth(page)
+          ^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+ERROR    2025-03-01 14:50:20,808 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-01 14:51:17,606 pricep Blip model initialized in 1.15 sec
+ERROR    2025-03-01 14:51:24,019 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 145, in text_search_view
+    html_content = await fetch_ozon_page(result_text)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 81, in fetch_ozon_page
+    await stealth(page)
+          ^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+ERROR    2025-03-01 14:51:24,027 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-10 14:17:44,272 pricep Blip model initialized in 1.64 sec
+INFO     2025-03-10 18:50:06,381 pricep Blip model initialized.
+INFO     2025-03-10 18:51:51,468 pricep Blip model initialized.
+ERROR    2025-03-10 18:52:06,665 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 132, in text_search_view
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 58, in fetch_html_page
+    encoded_query = urllib.parse.quote(search_query)
+                    ^^^^^^
+NameError: name 'urllib' is not defined. Did you forget to import 'urllib'
+ERROR    2025-03-10 18:52:06,734 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-10 18:52:10,923 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 132, in text_search_view
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 58, in fetch_html_page
+    encoded_query = urllib.parse.quote(search_query)
+                    ^^^^^^
+NameError: name 'urllib' is not defined. Did you forget to import 'urllib'
+ERROR    2025-03-10 18:52:10,929 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-10 18:53:20,404 pricep Blip model initialized.
+ERROR    2025-03-10 18:53:33,349 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\venv\Lib\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 135, in text_search_view
+    products = await find_product_by_data_index(html_content, 5)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Desktop\diplom\PriceP(Django)\pricep\image_search\views.py", line 81, in find_product_by_data_index
+    soup = BeautifulSoup(html_content, "html.parser")
+           ^^^^^^^^^^^^^
+NameError: name 'BeautifulSoup' is not defined
+ERROR    2025-03-10 18:53:33,359 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-10 18:54:03,157 pricep Blip model initialized.
+INFO     2025-03-10 18:54:30,235 pricep Processing uploaded image
+INFO     2025-03-10 18:54:30,236 pricep Processing image: uploads\903b5993-0e7c-49dd-ba8d-6be048ec6fdd.png
+INFO     2025-03-10 18:54:35,214 pricep Image description: a bedroom with a bed and a window
+INFO     2025-03-10 18:56:57,362 pricep Processing uploaded image
+INFO     2025-03-10 18:56:57,363 pricep Processing image: uploads\34d1cbb3-e926-42de-bcd0-9dd65814fe32.png
+INFO     2025-03-10 18:56:59,351 pricep Image description: monster energy drink can
+INFO     2025-03-10 18:58:04,670 pricep Blip model initialized.
+INFO     2025-03-10 18:59:40,641 pricep Processing uploaded image
+INFO     2025-03-10 18:59:40,642 pricep Processing image: uploads\514f817b-5170-4e77-819f-c9d6716aed89.png
+INFO     2025-03-10 18:59:44,510 pricep Image description: a cat reaching up to the sky with its paw
+INFO     2025-03-10 19:00:36,976 pricep Processing uploaded image
+INFO     2025-03-10 19:00:36,977 pricep Processing image: uploads\1094b06d-addd-4436-8732-3904b2bf7992.png
+INFO     2025-03-10 19:00:39,597 pricep Image description: a white plate on a blue table
+INFO     2025-03-10 19:02:26,080 pricep Blip model initialized.
+INFO     2025-03-10 19:02:31,268 pricep Processing uploaded image
+INFO     2025-03-10 19:02:31,269 pricep Processing image: uploads\157acf7c-6659-41ed-acaf-7150e640bf6a.png
+INFO     2025-03-10 19:02:34,337 pricep Image description: a white plate on a blue table
+INFO     2025-03-10 19:03:36,020 pricep Blip model initialized.
+INFO     2025-03-10 19:03:40,015 pricep Processing uploaded image
+INFO     2025-03-10 19:03:40,015 pricep Processing image: uploads\614b9955-6949-40f8-8004-49c460db3bd9.png
+INFO     2025-03-10 19:03:43,105 pricep Image description: a white plate on a blue table
+INFO     2025-03-10 16:46:22,598 pricep Blip model initialized.
+INFO     2025-03-10 16:46:51,746 pricep Blip model initialized.
+ERROR    2025-03-10 16:47:20,777 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1155/chrome-linux/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:47:20,781 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-10 16:47:25,381 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1155/chrome-linux/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:47:25,385 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-10 16:47:36,562 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1155/chrome-linux/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:47:36,565 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-10 16:47:38,198 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1155/chrome-linux/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:47:38,201 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-10 16:47:51,851 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1155/chrome-linux/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:47:51,855 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-10 16:48:01,184 pricep Blip model initialized.
+ERROR    2025-03-10 16:49:19,214 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1155/chrome-linux/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:49:19,223 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-10 16:57:01,988 pricep Blip model initialized.
+ERROR    2025-03-10 16:57:03,850 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     playwright install-deps                          ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     apt-get install libnss3\                         ║
+║         libnspr4\                                    ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0\                                 ║
+║         libatk-bridge2.0-0\                          ║
+║         libatspi2.0-0\                               ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2                                   ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:57:03,861 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-10 16:57:07,142 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     playwright install-deps                          ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     apt-get install libnss3\                         ║
+║         libnspr4\                                    ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0\                                 ║
+║         libatk-bridge2.0-0\                          ║
+║         libatspi2.0-0\                               ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2                                   ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+ERROR    2025-03-10 16:57:07,147 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-10 19:20:02,472 pricep Blip model initialized.
+ERROR    2025-03-10 19:20:45,040 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     playwright install-deps                          ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     apt-get install libnss3\                         ║
+║         libnspr4\                                    ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0\                                 ║
+║         libatk-bridge2.0-0\                          ║
+║         libatspi2.0-0\                               ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2                                   ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+ERROR    2025-03-10 19:20:45,053 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-10 19:21:50,024 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 132, in text_search_view
+    html_content, main_url = await fetch_html_page(result_text)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 64, in fetch_html_page
+    browser = await p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 14418, in launch
+    await self._impl_obj.launch(
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 95, in launch
+    Browser, from_channel(await self._channel.send("launch", params))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     playwright install-deps                          ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     apt-get install libnss3\                         ║
+║         libnspr4\                                    ║
+║         libdbus-1-3\                                 ║
+║         libatk1.0-0\                                 ║
+║         libatk-bridge2.0-0\                          ║
+║         libatspi2.0-0\                               ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libasound2                                   ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+ERROR    2025-03-10 19:21:50,031 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-10 19:27:32,789 pricep Blip model initialized.
