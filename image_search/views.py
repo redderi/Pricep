@@ -12,6 +12,7 @@ import logging
 from langdetect import detect
 import urllib.parse
 from bs4 import BeautifulSoup
+import io
 
 
 logger = logging.getLogger('pricep')
@@ -37,18 +38,14 @@ def init_blip_model():
 
 init_blip_model()
 
-def decode_picture(file_path, pipe):
+def decode_picture(image_data, pipe):
     if pipe is None:
         logger.error("Blip model is not initialized.")
         return False, "Model is not initialized."
 
-    if not os.path.exists(file_path):
-        logger.warning("File does not exist or path is invalid.")
-        return False, "No valid file path"
-
-    logger.info(f"Processing image: {file_path}")
+    logger.info("Processing image from memory")
     try:
-        image = Image.open(file_path)
+        image = Image.open(image_data)
         result = pipe(image)
         generated_text = result[0]['generated_text']
         logger.info(f"Image description: {generated_text}")
@@ -56,6 +53,8 @@ def decode_picture(file_path, pipe):
     except Exception as e:
         logger.error(f"Error processing image: {e}")
         return False, f"Error processing image: {str(e)}"
+    
+
 
 async def fetch_html_page(search_query):
     encoded_query = urllib.parse.quote(search_query)
@@ -140,6 +139,7 @@ async def text_search_view(request):
         })
     except json.JSONDecodeError:
         return JsonResponse({'error': 'Invalid JSON'}, status=400)
+    
 
 
 @csrf_exempt
@@ -151,18 +151,18 @@ async def image_search_view(request):
         return JsonResponse({'error': 'Invalid request'}, status=400)
 
     image_file = request.FILES['image']
-    upload_dir = os.path.join(settings.MEDIA_ROOT, 'uploads')
-    os.makedirs(upload_dir, exist_ok=True)
 
-    random_name = str(uuid.uuid4()) + os.path.splitext(image_file.name)[1]
-    file_path = os.path.join(upload_dir, random_name)
-    with open(file_path, 'wb+') as destination:
-        for chunk in image_file.chunks():
-            destination.write(chunk)
+    # Создаем временный файл в памяти
+    image_data = io.BytesIO()
+    for chunk in image_file.chunks():
+        image_data.write(chunk)
+    image_data.seek(0)  # Перемещаем указатель в начало файла
 
     translator = Translator()
     logger.info("Processing uploaded image")
-    status, result_text = decode_picture(file_path, blip_model)
+    
+    # Передаем данные изображения в decode_picture
+    status, result_text = decode_picture(image_data, blip_model)
 
     if not status:
         return JsonResponse({'error': result_text}, status=400)
@@ -177,4 +177,36 @@ async def image_search_view(request):
         'answer_text': translated_text,
         'product_info': products['products'],
         'main_url': main_url  # Добавляем главную ссылку
+    })
+
+
+@csrf_exempt
+async def define_image(request):
+    if not check_api_key(request):
+        return JsonResponse({'error': 'Invalid API Key'}, status=403)
+    
+    if request.method != 'POST' or 'image' not in request.FILES:
+        return JsonResponse({'error': 'Invalid request'}, status=400)
+
+    image_file = request.FILES['image']
+
+    # Создаем временный файл в памяти
+    image_data = io.BytesIO()
+    for chunk in image_file.chunks():
+        image_data.write(chunk)
+    image_data.seek(0)  # Перемещаем указатель в начало файла
+
+    translator = Translator()
+    logger.info("Processing uploaded image")
+    
+    # Передаем данные изображения в decode_picture
+    status, result_text = decode_picture(image_data, blip_model)
+
+    if not status:
+        return JsonResponse({'error': result_text}, status=400)
+
+    translated_text = translator.translate(prepare_text(result_text), src="en", dest="ru").text
+    
+    return JsonResponse({
+        'answer_text': translated_text,
     })

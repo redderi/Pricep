@@ -1999,3 +1999,224 @@ INFO     2025-03-11 00:13:46,969 pricep Blip model initialized.
 INFO     2025-03-11 00:13:54,214 pricep Processing uploaded image
 INFO     2025-03-11 00:13:54,215 pricep Processing image: uploads\d3179579-b588-4162-8806-9b1d91ea8108.png
 INFO     2025-03-11 00:14:00,533 pricep Image description: a white plate on a blue table
+INFO     2025-03-11 02:27:06,385 pricep Blip model initialized.
+INFO     2025-03-11 02:53:30,711 pricep Blip model initialized.
+INFO     2025-03-11 02:54:21,311 pricep Processing uploaded image
+INFO     2025-03-11 02:54:21,312 pricep Processing image: uploads\7405469e-05ad-4c45-ac36-7be9c7146c19.png
+INFO     2025-03-11 02:54:27,761 pricep Image description: a white plate on a blue table
+INFO     2025-03-11 03:00:21,868 pricep Blip model initialized.
+INFO     2025-03-11 03:00:57,115 pricep Processing uploaded image
+INFO     2025-03-11 03:00:57,116 pricep Processing image: uploads\75b0f758-85af-4934-b10f-b41bebf39d2e.png
+INFO     2025-03-11 03:01:00,523 pricep Image description: a white plate on a blue table
+INFO     2025-03-20 00:02:49,747 pricep Blip model initialized.
+INFO     2025-03-20 00:04:11,255 pricep Blip model initialized.
+INFO     2025-03-20 00:04:53,323 pricep Blip model initialized.
+INFO     2025-03-20 00:07:48,310 pricep Blip model initialized.
+INFO     2025-03-20 00:08:07,713 pricep Blip model initialized.
+INFO     2025-03-20 00:08:22,438 pricep Blip model initialized.
+INFO     2025-03-20 00:09:03,138 pricep Blip model initialized.
+INFO     2025-03-20 00:10:42,901 pricep Blip model initialized.
+WARNING  2025-03-20 00:11:49,256 django.request Not Found: /define-image/
+WARNING  2025-03-20 00:11:49,257 django.server "POST /define-image/ HTTP/1.1" 404 179
+INFO     2025-03-20 00:12:08,599 pricep Blip model initialized.
+WARNING  2025-03-20 00:12:11,287 django.request Bad Request: /define-image/
+WARNING  2025-03-20 00:12:11,288 django.server "POST /define-image/ HTTP/1.1" 400 28
+WARNING  2025-03-20 00:12:28,406 django.request Bad Request: /define-image/
+WARNING  2025-03-20 00:12:28,407 django.server "POST /define-image/ HTTP/1.1" 400 28
+INFO     2025-03-20 00:12:56,217 pricep Processing uploaded image
+INFO     2025-03-20 00:12:56,218 pricep Processing image from memory
+INFO     2025-03-20 00:13:01,293 pricep Image description: monster energy drink can
+INFO     2025-03-20 00:13:54,260 pricep Blip model initialized.
+INFO     2025-03-20 00:13:58,537 pricep Processing uploaded image
+INFO     2025-03-20 00:13:58,538 pricep Processing image from memory
+INFO     2025-03-20 00:14:01,128 pricep Image description: monster energy drink can
+INFO     2025-03-20 00:14:06,386 pricep Processing uploaded image
+INFO     2025-03-20 00:14:06,386 pricep Processing image from memory
+INFO     2025-03-20 00:14:07,879 pricep Image description: monster energy drink can
+INFO     2025-03-20 01:39:00,621 pricep Blip model initialized.
+INFO     2025-03-19 22:42:43,969 pricep Blip model initialized.
+INFO     2025-03-19 22:43:26,176 pricep Processing uploaded image
+INFO     2025-03-19 22:43:26,177 pricep Processing image from memory
+INFO     2025-03-19 22:43:32,113 pricep Image description: a laptop computer sitting on a desk with a lamp
+INFO     2025-03-19 22:44:07,839 pricep Processing uploaded image
+INFO     2025-03-19 22:44:07,839 pricep Processing image from memory
+INFO     2025-03-19 22:44:10,224 pricep Image description: a mouse pad on a table
+INFO     2025-03-19 22:44:40,741 pricep Blip model initialized.
+INFO     2025-03-19 22:52:27,142 pricep Processing uploaded image
+INFO     2025-03-19 22:52:27,142 pricep Processing image from memory
+INFO     2025-03-19 22:52:29,388 pricep Image description: a laptop computer sitting on a desk with a mouse
+ERROR    2025-03-19 22:52:29,651 django.request Internal Server Error: /define-image/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 208, in define_image
+    translated_text = translator.translate(prepare_text(result_text), src="en", dest="ru").text
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/googletrans/client.py", line 219, in translate
+    parsed = json.loads(data[0][2])
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR    2025-03-19 22:52:29,656 django.server "POST /define-image/ HTTP/1.1" 500 145
+INFO     2025-03-19 22:52:44,753 pricep Processing uploaded image
+INFO     2025-03-19 22:52:44,753 pricep Processing image from memory
+INFO     2025-03-19 22:52:46,907 pricep Image description: a laptop computer sitting on a desk with a mouse
+INFO     2025-03-19 22:53:52,946 pricep Processing uploaded image
+INFO     2025-03-19 22:53:52,947 pricep Processing image from memory
+INFO     2025-03-19 22:53:54,388 pricep Image description: a white and blue kettle
+INFO     2025-03-19 22:55:12,192 pricep Processing uploaded image
+INFO     2025-03-19 22:55:12,192 pricep Processing image from memory
+INFO     2025-03-19 22:55:14,146 pricep Image description: a white and blue toaster sitting on a counter
+INFO     2025-03-19 22:57:27,679 pricep Processing uploaded image
+INFO     2025-03-19 22:57:27,679 pricep Processing image from memory
+INFO     2025-03-19 22:57:29,335 pricep Image description: a bottle of water sitting on a table
+INFO     2025-03-19 23:02:32,173 pricep Processing uploaded image
+INFO     2025-03-19 23:02:32,174 pricep Processing image from memory
+INFO     2025-03-19 23:02:34,529 pricep Image description: a laptop computer sitting on a desk with a cord plug plug plug plug
+INFO     2025-03-19 23:02:55,641 pricep Processing uploaded image
+INFO     2025-03-19 23:02:55,641 pricep Processing image from memory
+INFO     2025-03-19 23:02:57,093 pricep Image description: a white and blue kettle
+INFO     2025-03-19 23:03:30,159 pricep Processing uploaded image
+INFO     2025-03-19 23:03:30,159 pricep Processing image from memory
+INFO     2025-03-19 23:03:31,966 pricep Image description: a bottle of deo deod on a table
+ERROR    2025-03-19 23:04:09,412 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 129, in text_search_view
+    result_text = input_text if detected_language == 'ru' else translator.translate(prepare_text(input_text), src="en", dest="ru").text
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/googletrans/client.py", line 219, in translate
+    parsed = json.loads(data[0][2])
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR    2025-03-19 23:04:09,415 django.server "POST /search-text/ HTTP/1.1" 500 145
+ERROR    2025-03-19 23:32:52,216 django.request Internal Server Error: /search-text/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 254, in __call__
+    return call_result.result()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.12/site-packages/asgiref/sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pricep/image_search/views.py", line 129, in text_search_view
+    result_text = input_text if detected_language == 'ru' else translator.translate(prepare_text(input_text), src="en", dest="ru").text
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/googletrans/client.py", line 219, in translate
+    parsed = json.loads(data[0][2])
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+ERROR    2025-03-19 23:32:52,271 django.server "POST /search-text/ HTTP/1.1" 500 145
+INFO     2025-03-20 14:59:32,261 pricep Blip model initialized.
+INFO     2025-03-20 14:59:47,983 pricep Processing uploaded image
+INFO     2025-03-20 14:59:47,984 pricep Processing image from memory
+INFO     2025-03-20 14:59:54,063 pricep Image description: a young man wearing glasses and looking at a computer
+INFO     2025-03-20 15:01:11,560 pricep Processing uploaded image
+INFO     2025-03-20 15:01:11,561 pricep Processing image from memory
+INFO     2025-03-20 15:01:15,438 pricep Image description: a person holding a cell phone in front of a laptop
+INFO     2025-03-20 15:01:35,316 pricep Processing uploaded image
+INFO     2025-03-20 15:01:35,317 pricep Processing image from memory
+INFO     2025-03-20 15:01:38,986 pricep Image description: a mouse pad with a computer mouse on it
+INFO     2025-03-20 15:01:40,403 pricep Processing uploaded image
+INFO     2025-03-20 15:01:40,405 pricep Processing image from memory
+INFO     2025-03-20 15:01:44,197 pricep Image description: a laptop computer sitting on a table
+INFO     2025-03-24 13:38:15,752 pricep Blip model initialized.
+INFO     2025-03-24 13:38:51,345 pricep Processing uploaded image
+INFO     2025-03-24 13:38:51,346 pricep Processing image from memory
+INFO     2025-03-24 13:38:57,046 pricep Image description: a person holding a black stone in their hand
+INFO     2025-03-24 13:39:26,271 pricep Processing uploaded image
+INFO     2025-03-24 13:39:26,272 pricep Processing image from memory
+INFO     2025-03-24 13:39:29,228 pricep Image description: a cell phone sitting on a table
+INFO     2025-03-24 13:40:39,199 pricep Processing uploaded image
+INFO     2025-03-24 13:40:39,200 pricep Processing image from memory
+INFO     2025-03-24 13:40:43,053 pricep Image description: a polaroid photograph of a man in a red shirt
+INFO     2025-03-24 14:47:49,428 pricep Processing uploaded image
+INFO     2025-03-24 14:47:49,452 pricep Processing image from memory
+INFO     2025-03-24 14:48:06,959 pricep Image description: a mouse and a laptop on a desk
+INFO     2025-03-24 14:48:33,332 pricep Processing uploaded image
+INFO     2025-03-24 14:48:33,333 pricep Processing image from memory
+INFO     2025-03-24 14:48:40,967 pricep Image description: a mouse on a piece of paper with a handwritten note
+INFO     2025-03-24 14:58:09,476 pricep Processing uploaded image
+INFO     2025-03-24 14:58:09,477 pricep Processing image from memory
+INFO     2025-03-24 14:58:12,353 pricep Image description: amolim 4mg tablets
+INFO     2025-03-24 14:58:34,096 pricep Processing uploaded image
+INFO     2025-03-24 14:58:34,098 pricep Processing image from memory
+INFO     2025-03-24 14:58:37,494 pricep Image description: a circuit diagram with a circuit and a circuit
+INFO     2025-03-24 15:04:41,506 pricep Processing uploaded image
+INFO     2025-03-24 15:04:41,507 pricep Processing image from memory
+INFO     2025-03-24 15:04:44,462 pricep Image description: two small wooden tables with drawers
+INFO     2025-03-24 15:08:24,853 pricep Processing uploaded image
+INFO     2025-03-24 15:08:24,855 pricep Processing image from memory
+INFO     2025-03-24 15:08:27,423 pricep Image description: amolim 4mg tablets
+INFO     2025-03-25 11:35:09,334 pricep Blip model initialized.
+INFO     2025-03-25 11:37:09,093 pricep Processing uploaded image
+INFO     2025-03-25 11:37:09,094 pricep Processing image from memory
+INFO     2025-03-25 11:37:12,950 pricep Image description: a person is sitting on a laptop in a room
+INFO     2025-03-25 11:37:38,979 pricep Processing uploaded image
+INFO     2025-03-25 11:37:38,979 pricep Processing image from memory
+INFO     2025-03-25 11:37:41,713 pricep Image description: a person wearing a pair of shoes on their feet
+INFO     2025-03-25 14:58:54,339 pricep Blip model initialized.
+INFO     2025-03-25 14:59:12,116 pricep Processing uploaded image
+INFO     2025-03-25 14:59:12,116 pricep Processing image from memory
+INFO     2025-03-25 14:59:15,376 pricep Image description: a laptop computer sitting on a wooden table
+INFO     2025-03-25 15:47:39,999 pricep Processing uploaded image
+INFO     2025-03-25 15:47:40,000 pricep Processing image from memory
+INFO     2025-03-25 15:47:43,073 pricep Image description: a laptop computer sitting on a wooden table
+INFO     2025-03-25 15:57:09,185 pricep Processing uploaded image
+INFO     2025-03-25 15:57:09,186 pricep Processing image from memory
+INFO     2025-03-25 15:57:12,163 pricep Image description: a blue pen on a wooden table

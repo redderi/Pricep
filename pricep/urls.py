@@ -21,4 +21,5 @@ from image_search import views
 urlpatterns = [
     path('search-image/', views.image_search_view, name='search_image'),
     path('search-text/', views.text_search_view, name='search_text'),
+    path('define-image/',views.define_image, name="define_image")
 ]

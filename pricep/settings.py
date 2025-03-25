@@ -11,6 +11,7 @@ API_KEY = env("API_KEY", default="11111111")
 DEBUG = env.bool("DEBUG", default=False)  # Изменил значение по умолчанию на False, для продакшн
 SECRET_KEY = env("SECRET_KEY", default="22222222")
 
+
 # Убедитесь, что DEBUG установлен в False в продакшн-среде
 DEBUG = False
 
